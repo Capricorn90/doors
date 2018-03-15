@@ -29,6 +29,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-maps
+maps:
+  google:
+    api_key: AIzaSyCdhIG9TAbcGfZaDwe-W1EldvG10fh3dLk
+
+location:
+  latitude: 51.5285582
+  longitude: -0.2416807
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
